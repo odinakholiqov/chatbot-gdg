@@ -15,7 +15,7 @@ services:
     environment:
       - POSTGRES_PASSWORD=odina
       - POSTGRES_USER=odina
-      - POSTGRES_DB=sns
+      - POSTGRES_DB=chatbot_db
   adminer:
     image: adminer
     restart: always
